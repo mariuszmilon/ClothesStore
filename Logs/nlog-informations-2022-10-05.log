@@ -143,3 +143,42 @@
 2022-10-05 18:31:31.7350||INFO|ClothesStore.Services.TrousersService|Trousers: UPDATE action invoked! 
 2022-10-05 18:31:53.2224||INFO|ClothesStore.Services.TrousersService|Trousers: UPDATE action invoked! 
 2022-10-05 18:37:04.7251||INFO|ClothesStore.Services.TrousersService|Trousers: UPDATE action invoked! 
+2022-10-05 18:44:15.0958||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:44:31.8256||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:44:56.5774||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:45:08.8018||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:45:18.7981||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:45:28.2760||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:45:46.1105||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:27.8779||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:36.1861||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:41.8108||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:43.7138||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:44.4740||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:45.3841||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:46.0084||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:46.6160||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:47.1934||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:47.6606||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:48.1160||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:48.5939||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:49.0914||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:49.5915||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:50.0139||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:50.4986||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:51.0363||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:52:51.6452||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:53:01.1486||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:53:01.9244||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 18:53:02.4448||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:04:07.3789||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:04:18.6514||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:04:46.1813||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:04:59.8171||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:05:06.8333||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:11.6840||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:18.5910||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:20.6456||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:21.3643||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:23.5762||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 
+2022-10-05 19:07:27.6616||INFO|ClothesStore.Services.TrousersService|Trousers: GET ALL action invoked! 

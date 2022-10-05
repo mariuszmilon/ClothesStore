@@ -68,7 +68,7 @@ namespace ClothesStore.Services
                     || r.Description.ToLower().Contains(query.SearchPhrase.ToLower())
                     || r.Brand.ToLower().Contains(query.SearchPhrase.ToLower())));
 
-            if (!string.IsNullOrEmpty(query.SortBy))
+            if (!string.IsNullOrEmpty(query.SortBy) && (!(query.SortDirection is null)))
             {
                 var sortByColumn = new Dictionary<string, Expression<Func<Trousers, object>>>()
                 {
