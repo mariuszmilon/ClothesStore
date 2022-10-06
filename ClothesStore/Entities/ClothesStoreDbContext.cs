@@ -11,6 +11,7 @@ namespace ClothesStore.Entities
         public DbSet<Item> Items { get; set; }
         public DbSet<Shoe> Shoes { get; set; }
         public DbSet<Trousers> Trousers { get; set; }
+        public DbSet<PulloverAndSweatshirt> PulloversAndSweats { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -14,6 +14,9 @@ namespace ClothesStore
             CreateMap<AddShoesDto, Shoe>();
             CreateMap<Shoe, ShoesDto>();
 
+            CreateMap<AddPulloverAndSweatshirtDto, PulloverAndSweatshirt>();
+            CreateMap<PulloverAndSweatshirt, PulloverAndSweatshirtDto>();
+
             CreateMap<RegisterUserDto, User>()
                 .ForMember(a => a.Address, c => c.MapFrom(s => new Address {Country = s.Country, City = s.City, Street = s.Street, PostalCode = s.PostalCode, StreetNumber = s.StreetNumber}));
 
