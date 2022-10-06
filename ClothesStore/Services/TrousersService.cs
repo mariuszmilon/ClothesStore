@@ -8,7 +8,7 @@ using ClothesStore.Authorization;
 
 namespace ClothesStore.Services
 {
-    public class TrousersService : IItemService
+    public class TrousersService : IItemService<TrousersDto, AddTrousersDto>
     {
         private readonly ClothesStoreDbContext _dbContext;
         private readonly IMapper _mapper;
@@ -51,7 +51,7 @@ namespace ClothesStore.Services
             var result = _authorizationService.AuthorizeAsync(_userContextService.User, trousers, new ResourceRequirement(ResourceOperation.Delete)).Result;
 
             if (!result.Succeeded)
-                throw new ForbidExepction("Unauthorized DELETE action!");
+                throw new ForbidExepction("Trousers: Unauthorized DELETE action!");
 
             _dbContext.Trousers.Remove(trousers);
             _dbContext.SaveChanges();
@@ -89,10 +89,10 @@ namespace ClothesStore.Services
                 .Take(query.PageSize)
                 .ToList();
 
-            var countOfBooks = baseQuery.Count();
+            var countOfTrousers = baseQuery.Count();
 
             var listDto = _mapper.Map<List<TrousersDto>>(list);
-            var result = new PagesResult<TrousersDto>(listDto, countOfBooks, query.PageSize, query.PageNumber);
+            var result = new PagesResult<TrousersDto>(listDto, countOfTrousers, query.PageSize, query.PageNumber);
 
             return result;
         }
@@ -126,7 +126,7 @@ namespace ClothesStore.Services
             var result = _authorizationService.AuthorizeAsync(_userContextService.User, trousers, new ResourceRequirement(ResourceOperation.Delete)).Result;
 
             if (!result.Succeeded)
-                throw new ForbidExepction("Unauthorized DELETE action!");
+                throw new ForbidExepction("Trousers: Unauthorized DELETE action!");
 
             trousers.Description = dto.Description;
             trousers.Price = dto.Price;

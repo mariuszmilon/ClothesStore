@@ -10,9 +10,9 @@ namespace ClothesStore.Controllers
     [Authorize]
     public class TrousersController : ControllerBase
     {
-        private readonly IItemService _itemService;
+        private readonly IItemService<TrousersDto, AddTrousersDto> _itemService;
 
-        public TrousersController(IItemService itemService)
+        public TrousersController(IItemService<TrousersDto, AddTrousersDto> itemService)
         {
             _itemService = itemService;
         }
