@@ -1,6 +1,6 @@
 ﻿namespace ClothesStore.Entities
 {
-    public class Item
+    public abstract class Item
     {
         public int Id { get; set; }
         public string Brand { get; set; }
