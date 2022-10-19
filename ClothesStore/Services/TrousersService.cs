@@ -46,7 +46,7 @@ namespace ClothesStore.Services
                 .FirstOrDefault(t => t.Id == id);
 
             if (trousers is null)
-                throw new NotFoundException($"Not found trousers  with id: {id}!");
+                throw new NotFoundException($"Item with id: {id} not found!");
 
             var result = _authorizationService.AuthorizeAsync(_userContextService.User, trousers, new ResourceRequirement(ResourceOperation.Delete)).Result;
 
@@ -106,7 +106,7 @@ namespace ClothesStore.Services
                 .FirstOrDefault(x => x.Id == id);
 
                 if (trousers is null)
-                    throw new NotFoundException($"Not found trousers  with id: {id}!");
+                    throw new NotFoundException($"Item with id: {id} not found!");
 
             var trousersDto = _mapper.Map<TrousersDto>(trousers);
             return trousersDto;
@@ -121,7 +121,7 @@ namespace ClothesStore.Services
                 .FirstOrDefault(b => b.Id == id);
 
             if (trousers is null)
-                throw new NotFoundException($"Not found trousers  with id: {id}!");
+                throw new NotFoundException($"Item with id: {id} not found!");
 
             var result = _authorizationService.AuthorizeAsync(_userContextService.User, trousers, new ResourceRequirement(ResourceOperation.Delete)).Result;
 
